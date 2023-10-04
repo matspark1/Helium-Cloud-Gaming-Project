@@ -1,0 +1,119 @@
+.member-wrap{
+    max-width: 100%;
+    margin: 40px 0;
+}
+
+.member-hero{
+    background-image: url(../images/member-hero.jpg);
+    background-position: center;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+    border-radius: 20px;
+    h3{
+        color: #fff;
+        font-family: $UniB;
+        font-size: 65px;
+        margin: 0 auto;
+    }
+}
+
+.member-box-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    width: 85%;
+    margin: 0 auto;
+    .member-box{
+        width: 300px;
+        height: 450px;
+        border: 3px solid #262626;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h3{
+            font-family: $UniB;
+            font-size: 30px;
+            margin-top: 30px;
+            color: #262626;
+        }
+        p{
+            text-align: center;
+            color: #262626;
+            width: 80%;
+        }
+        a{
+            font-size: 22px;
+            text-decoration: none;
+            color: #efeee9;
+            font-family: $UniB;
+            padding: 15px 40px;
+            border: 3px solid #262626;
+            background-color: #262626;;
+            border-radius: 40px;
+            margin-top: 40px;
+            transition: ease 0.2s;
+            &:hover{
+                color: #262626;
+                background-color: #efeee9;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1500px){
+    .site-wrapper{
+        #inject{
+            .member-wrap{
+                .member-herp{
+                    h3{
+                        font-size: 60px;
+                    }
+                }
+            }
+        }
+
+    }
+
+}
+
+@media screen and (max-width: 1020px){
+    .site-wrapper{
+        .member-wrap{
+            .member-hero{
+                h3{
+                    font-size: 55px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 900px){
+    .site-wrapper{
+        .member-wrap{
+            .member-hero{
+                h3{
+                    font-size: 45px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 775px){
+    .site-wrapper{
+        .member-wrap{
+            .member-hero{
+                h3{
+                    font-size: 35px;
+                }
+            }
+        }
+    }
+}

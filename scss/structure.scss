@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  font-family: $UniBold;
+  background-color: #efeee9;
+  overflow-x: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+  color: #262626;
+}
+
+#inject{
+  margin: 10px 40px 0px 40px;
+}
+
+.site-wrapper{
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  
+  }
+
+  ::-webkit-scrollbar-track{
+    background-color: #efeee9;
+    
+  }
+
+  ::-webkit-scrollbar-thumb{
+    background: #7f7f7f;
+    border-radius: 10px;
+  }
+
+
+  
+@font-face {
+  font-family: "UniHeavy";
+  src: url(../css/fonts/UniNeue-Heavy.ttf) format("truetype");
+}
+
+
+@font-face {
+  font-family: "UniBold";
+  src: url(../css/fonts/UniNeue-Bold.ttf) format("truetype");
+}
+
+
+@font-face {
+  font-family: "UniReg";
+  src: url(../css/fonts/UniNeue-Regular.ttf) format("truetype");
+}
+
+  
+@font-face {
+  font-family: "UniBlack";
+  src: url(../css/fonts/UniNeue-Black.ttf) format("truetype");
+}
+
